@@ -80,8 +80,7 @@ button.navbar-toggler span{
     margin-bottom: 64px;
 }
 #banner .container a{
-    display: inline-block;
-    text-decoration: none;
+    display: block;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
