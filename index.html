@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--======== the title of page =============-->
+    <title>Agency-Bootstrap-theme</title>
+    <!--========= Bootstrap links ==========-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--============ Css links ===========-->
+    <link rel="stylesheet" href="style.css">
+    <!--============ Google Fonts links ========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!--========== google font-awesome ===========-->
+    <script src="https://kit.fontawesome.com/8f130c8a35.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ========== Start Header Section ========== -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3 fixed-top" id="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#navbar"><img src="image/logo/navbar-logo.svg" alt="website_logo" class="w-75 w-sm-50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span>Menu <i class="fa-solid fa-bars" style="color: #a2a3a4;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- ========== End Header Section ========== -->
+    <!-------------------------------------------------->
+    <!-- ========== Start Banner Section ========== -->
+    <section id="banner">
+        <div class="container text-center">
+            <h2>Welcome To Our Studio!</h2>
+            <h1>IT'S NICE TO MEET YOU</h1>
+            <button>TELL ME MORE</button>
+        </div>
+    </section>
+    <!-- ========== End Banner Section ========== -->
+    <!--------------------------------------------------->
+    <!-- ========== Start Services Section ========== -->
+    <section id="services">
+        <div class="container text-center">
+            <h1>SERVICES</h1>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+            <div class="row text-center">
+                <div class="col-md-4 text-center">
+                    <div class="service_bloc">
+                        <div class="circle text-center">
+                        <i class="fa-solid fa-cart-shopping fa-xl" style="color: #f5f5f5;"></i>
+                        </div>
+                        <h3>E-Commerce</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service_bloc">
+                        <div class="circle text-center">
+                            <i class="fa-solid fa-laptop fa-xl" style="color: #ffffff;"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service_bloc">
+                        <div class="circle text-center">
+                            <i class="fa-solid fa-lock fa-xl" style="color: #ffffff;"></i>
+                        </div>
+                        <h3>Web Security</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ========== End Services Section ========== -->
+    <!----------------------------------------------------->
+    <!-- ========== Start Portfolio Section ========== -->
+    <section id="portfolio" class="bg-light">
+        <div class="container text-center">
+            <h1>Portfolio</h1>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+            <div class="row pb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio_bloc">
+                        <div class="portfolio_img">
+                            <img src="image/portfolio/1.jpg" alt="" class="img-fluid w-100">
+                            <div class="image-hover text-center align-items-center d-flex justify-content-center">
+                                <!-- Button trigger modal -->
+                                <a role="button" data-bs-toggle="modal" href="#portfolio_model1" class="text-center">
+                                    <i class="bi bi-plus-lg"></i>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="portfolio_model1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content pb-4">
+                                        <div class="modal-header d-flex justify-content-end border-bottom-0">
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="head-close-button"><img src="image/close-icon.svg" alt="" class="img-fluid close-icone"></button>
+                                        </div>
+                                        <div class="modal-body mb-4 pb-4">
+                                            <h1>PROJECT NAME</h1>
+                                            <span class="d-block">Lorem ipsum dolor sit amet consectetur.</span>
+                                            <img src="image/portfolio/1.jpg" alt="" class="img-fluid d-inline-block text-center mb-4">
+                                            <p class="modal-texte">
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+                                                elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi <br> 
+                                                sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere <br> 
+                                                nemo!
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><b>Client:</b> Finish</li>
+                                                <li><b>Category:</b> Identity</li>
+                                            </ul>
+                                            <button type="button" class="mt-4 d-inline-block close-button" data-bs-dismiss="modal">X CLOSE PROJECT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_footer">
+                            <h4>Threads</h4>
+                            <p>Illustration</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio_bloc">
+                        <div class="portfolio_img">
+                            <img src="image/portfolio/2.jpg" alt="" class="img-fluid w-100">
+                            <div class="image-hover text-center align-items-center d-flex justify-content-center">
+                                <!-- Button trigger modal -->
+                                <a role="button" data-bs-toggle="modal" href="#portfolio_model2" class="text-center">
+                                    <i class="bi bi-plus-lg"></i>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="portfolio_model2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content pb-4">
+                                        <div class="modal-header d-flex justify-content-end border-bottom-0">
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="head-close-button"><img src="image/close-icon.svg" alt="" class="img-fluid close-icone"></button>
+                                        </div>
+                                        <div class="modal-body mb-4 pb-4">
+                                            <h1>PROJECT NAME</h1>
+                                            <span class="d-block">Lorem ipsum dolor sit amet consectetur.</span>
+                                            <img src="image/portfolio/2.jpg" alt="" class="img-fluid d-inline-block text-center mb-4">
+                                            <p class="modal-texte">
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+                                                elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi <br> 
+                                                sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere <br> 
+                                                nemo!
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><b>Client:</b> Finish</li>
+                                                <li><b>Category:</b> Identity</li>
+                                            </ul>
+                                            <button type="button" class="mt-4 d-inline-block close-button" data-bs-dismiss="modal">X CLOSE PROJECT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_footer">
+                            <h4>Explore</h4>
+                            <p>Graphic design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio_bloc">
+                        <div class="portfolio_img">
+                            <img src="image/portfolio/3.jpg" alt="" class="img-fluid w-100">
+                            <div class="image-hover text-center align-items-center d-flex justify-content-center">
+                                <!-- Button trigger modal -->
+                                <a role="button" data-bs-toggle="modal" href="#portfolio_model3" class="text-center">
+                                    <i class="bi bi-plus-lg"></i>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="portfolio_model3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content pb-4">
+                                        <div class="modal-header d-flex justify-content-end border-bottom-0">
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="head-close-button"><img src="image/close-icon.svg" alt="" class="img-fluid close-icone"></button>
+                                        </div>
+                                        <div class="modal-body mb-4 pb-4">
+                                            <h1>PROJECT NAME</h1>
+                                            <span class="d-block">Lorem ipsum dolor sit amet consectetur.</span>
+                                            <img src="image/portfolio/3.jpg" alt="" class="img-fluid d-inline-block text-center mb-4">
+                                            <p class="modal-texte">
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+                                                elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi <br> 
+                                                sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere <br> 
+                                                nemo!
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><b>Client:</b> Finish</li>
+                                                <li><b>Category:</b> Identity</li>
+                                            </ul>
+                                            <button type="button" class="mt-4 d-inline-block close-button" data-bs-dismiss="modal">X CLOSE PROJECT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_footer">
+                            <h4>Finish</h4>
+                            <p>identify</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio_bloc">
+                        <div class="portfolio_img">
+                            <img src="image/portfolio/4.jpg" alt="" class="img-fluid w-100">
+                            <div class="image-hover text-center align-items-center d-flex justify-content-center">
+                                <!-- Button trigger modal -->
+                                <a role="button" data-bs-toggle="modal" href="#portfolio_model4" class="text-center">
+                                    <i class="bi bi-plus-lg"></i>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="portfolio_model4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content pb-4">
+                                        <div class="modal-header d-flex justify-content-end border-bottom-0">
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="head-close-button"><img src="image/close-icon.svg" alt="" class="img-fluid close-icone"></button>
+                                        </div>
+                                        <div class="modal-body mb-4 pb-4">
+                                            <h1>PROJECT NAME</h1>
+                                            <span class="d-block">Lorem ipsum dolor sit amet consectetur.</span>
+                                            <img src="image/portfolio/4.jpg" alt="" class="img-fluid d-inline-block text-center mb-4">
+                                            <p class="modal-texte">
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+                                                elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi <br> 
+                                                sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere <br> 
+                                                nemo!
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><b>Client:</b> Finish</li>
+                                                <li><b>Category:</b> Identity</li>
+                                            </ul>
+                                            <button type="button" class="mt-4 d-inline-block close-button" data-bs-dismiss="modal">X CLOSE PROJECT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_footer">
+                            <h4>Lines</h4>
+                            <p>Branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio_bloc">
+                        <div class="portfolio_img">
+                            <img src="image/portfolio/5.jpg" alt="" class="img-fluid w-100">
+                            <div class="image-hover text-center align-items-center d-flex justify-content-center">
+                                <!-- Button trigger modal -->
+                                <a role="button" data-bs-toggle="modal" href="#portfolio_model5" class="text-center">
+                                    <i class="bi bi-plus-lg"></i>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="portfolio_model5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content pb-4">
+                                        <div class="modal-header d-flex justify-content-end border-bottom-0">
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="head-close-button"><img src="image/close-icon.svg" alt="" class="img-fluid close-icone"></button>
+                                        </div>
+                                        <div class="modal-body mb-4 pb-4">
+                                            <h1>PROJECT NAME</h1>
+                                            <span class="d-block">Lorem ipsum dolor sit amet consectetur.</span>
+                                            <img src="image/portfolio/5.jpg" alt="" class="img-fluid d-inline-block text-center mb-4">
+                                            <p class="modal-texte">
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+                                                elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi <br> 
+                                                sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere <br> 
+                                                nemo!
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><b>Client:</b> Finish</li>
+                                                <li><b>Category:</b> Identity</li>
+                                            </ul>
+                                            <button type="button" class="mt-4 d-inline-block close-button" data-bs-dismiss="modal">X CLOSE PROJECT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_footer">
+                            <h4>Southwest</h4>
+                            <p>Website design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio_bloc">
+                        <div class="portfolio_img">
+                            <img src="image/portfolio/6.jpg" alt="" class="img-fluid w-100">
+                            <div class="image-hover text-center align-items-center d-flex justify-content-center">
+                                <!-- Button trigger modal -->
+                                <a role="button" data-bs-toggle="modal" href="#portfolio_model6" class="text-center">
+                                    <i class="bi bi-plus-lg"></i>
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="portfolio_model6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content pb-4">
+                                        <div class="modal-header d-flex justify-content-end border-bottom-0">
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="head-close-button"><img src="image/close-icon.svg" alt="" class="img-fluid close-icone"></button>
+                                        </div>
+                                        <div class="modal-body mb-4 pb-4">
+                                            <h1>PROJECT NAME</h1>
+                                            <span class="d-block">Lorem ipsum dolor sit amet consectetur.</span>
+                                            <img src="image/portfolio/6.jpg" alt="" class="img-fluid d-inline-block text-center mb-4">
+                                            <p class="modal-texte">
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+                                                elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi <br> 
+                                                sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere <br> 
+                                                nemo!
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><b>Client:</b> Finish</li>
+                                                <li><b>Category:</b> Identity</li>
+                                            </ul>
+                                            <button type="button" class="mt-4 d-inline-block close-button" data-bs-dismiss="modal">X CLOSE PROJECT</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_footer">
+                            <h4>Window</h4>
+                            <p>Photography</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Portfolio Section ========== -->
+    <!-------------------------------------------------------->
+    <!-- ========== Start About Section ========== -->
+    <section id="about" class="bg-white">
+        <div class="container text-center">
+            <h1>ABOUT</h1>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </div>
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-start align-items-center position-relative box gap-5">
+                <div class="col-12 col-md-6 d-flex flex-md-row-reverse flex-row justify-content-start align-items-center me-md-auto about-box box-start position-relative">
+                    <div class="about-img">
+                        <img src="image/about/1.jpg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="about-text text-md-end text-start">
+                        <h1>2009-2011</h1>
+                    <h1>Our Humble Beginnings</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-row justify-content-start align-items-center ms-md-auto about-box box-end">
+                    <div class="about-img w-100">
+                        <img src="image/about/2.jpg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="about-text text-start">
+                        <h1>March 2011</h1>
+                    <h1>An Agency is Born</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-md-row-reverse flex-row justify-content-start align-items-center me-md-auto about-box box-start position-relative">
+                    <div class="about-img">
+                        <img src="image/about/3.jpg" alt="" class="rounded-circle">
+                    </div>
+                    <div class="about-text text-md-end text-start">
+                        <h1>December 2015</h1>
+                    <h1>Transition to Full Service</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-row justify-content-start align-items-center ms-md-auto about-box box-end">
+                    <div class="about-img">
+                        <img src="image/about/4.jpg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="about-text text-start">
+                        <h1>July 2020</h1>
+                    <h1>Phase Two Expansion</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start justify-content-md-center align-items-center">
+                    <div class="rounded-circle last-circle text-center img-fluid">
+                        <p>Be Part <br>
+                            Of Our <br>
+                            Story!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========== End About Section ========== -->
+    <!--------------------------------------------------------->
+    <!-- ========== Start Team Section ========== -->
+    <section id="team" class="bg-light">
+        <div class="container text-center">
+            <h1>OUR AMAZING TEAM</h1>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-2 d-flex flex-column justify-content-between team-items">
+                    <div class="team-img text-center">
+                        <img src="image/team/1.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="team-text text-center">
+                        <h2>Parveen Anand</h2>
+                        <p>Lead Designer</p>
+                    </div>
+                    <div class="team-logo d-flex flex-row justify-content-center gap-5">
+                        <div class="circle-logo text-center"><i class="bi bi-twitter round"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-facebook"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-linkedin rounded-circle"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2 d-flex flex-column justify-content-between team-items">
+                    <div class="team-img text-center">
+                        <img src="image/team/2.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="team-text text-center">
+                        <h2>Diana Petersen</h2>
+                        <p>Lead Marketer</p>
+                    </div>
+                    <div class="team-logo d-flex flex-row justify-content-center gap-5">
+                        <div class="circle-logo text-center"><i class="bi bi-twitter round"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-facebook"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-linkedin rounded-circle"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2 d-flex flex-column justify-content-between team-items">
+                    <div class="team-img text-center">
+                        <img src="image/team/3.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="team-text text-center">
+                        <h2>Larry Parker</h2>
+                        <p>Lead Developer</p>
+                    </div>
+                    <div class="team-logo d-flex flex-row justify-content-center gap-5">
+                        <div class="circle-logo text-center"><i class="bi bi-twitter round"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-facebook"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-linkedin rounded-circle"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row team-text">
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad <br> perspiciatis, totam corporis ea, alias ut unde.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ==============logo partie================== -->
+    <div class="container-fluid m-auto">
+        <div class="row py-5 bg-white m-auto">
+            <div class="col-md-3 text-center">
+                <img src="image/logo/microsoft.svg" alt="" class="img-fluid img-1">
+            </div>
+            <div class="col-md-3 text-center pt-4 pt-md-0">
+                <img src="image/logo/google.svg" alt="" class="img-fluid img-2">
+            </div>
+            <div class="col-md-3 text-center pt-4 pt-md-0">
+                <img src="image/logo/facebook.svg" alt="" class="img-fluid img-3">
+            </div>
+            <div class="col-md-3 text-center pt-4 pt-md-0">
+                <img src="image/logo/ibm.svg" alt="" class="img-fluid img-4">
+            </div>
+        </div>
+    </div>
+    <!-- ================ logo partie end ================-->
+    <!-- ========== End Team Section ========== -->
+    <!----------------------------------------------------------->
+    <!-- ========== Start Contact Section ========== -->
+    <section id="contact">
+        <div class="container text-center">
+            <h1>CONTACT US</h1>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </div>
+        <div class="container">
+            <form class="needs-validation" novalidate>
+                <div class="row p-3">
+                    <div class="col-md-6 d-flex flex-column">
+                        <div class="mb-3">
+                            <div class="input-group has-validation">
+                                <input type="text" class="form-control" id="name" required placeholder="Your Name *">
+                                <div class="invalid-feedback">
+                                    A name is required.
+                                </div>
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group has-validation">
+                                <input type="email" class="form-control" id="email" required placeholder="Your Email *">
+                                <div class="invalid-feedback">
+                                  an Email is required. <br>
+                                  Email is not valid.
+                                </div>
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group has-validation">
+                                <input type="text" class="form-control" id="telephone"  placeholder="Your Phone" required>
+                                <div class="invalid-feedback">
+                                    A phone number is required.
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group has-validation">
+                            <textarea name="commentaire" id="commentaire" placeholder="Your Message *" rows="8" class="form-control" required></textarea>
+                            <div class="invalid-feedback">
+                                A message is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center pt-4">
+                        <button type="submit">SEND MESSAGE</button>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ========== End Contact Section ========== -->
+    <!--======================================================-->
+    <!-- ========== Start Footer Section ========== -->
+    <footer id="footer" class="bg-white">
+        <div class="container">
+            <div class="row pt-4 pb-4 align-items-center">
+                <div class="col-md-4">
+                    <p class="text-md-start text-center mt-md-3">Copyright © Your Website 2023</p>
+                </div>
+                <div class="col-md-4 pt-3 pt-md-0">
+                    <div class="footer-logo d-flex flex-row justify-content-center gap-5">
+                        <div class="circle-logo text-center"><i class="bi bi-twitter round"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-facebook"></i></div>
+                        <div class="circle-logo text-center"><i class="bi bi-linkedin rounded-circle"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-row justify-content-md-end justify-content-center pt-3 pt-md-0">
+                    <div class="pe-3">
+                        <span class="text-md-end text-center">Privacy Policy</span>
+                    </div>
+                    <div>
+                        <span class="text-md-end text-center">Terms of Use</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== End Footer Section ========== -->
+
+
+
+
+
+    <!--============== Bootstrap script =================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        const nav = document.getElementById('navbar');
+        window.onscroll = function () { 
+            if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+                navbar.classList.add("bg-dark");
+            } 
+            else {
+                navbar.classList.remove("bg-dark");
+            }
+        };
+        const navbar = document.getElementById('navbar'); // select the navbar element
+        const mediaQuery = window.matchMedia('(max-width: 768px)'); // set up a media query for screens less than 768px wide
+
+        function handleMediaQuery(mediaQuery) {
+        if (mediaQuery.matches) {
+            navbar.classList.add('dark-bg'); // add the 'mobile' class to the navbar if the media query matches
+        } else {
+            navbar.classList.remove('dark-bg'); // remove the 'mobile' class from the navbar if the media query doesn't match
+        }
+        }
+
+        handleMediaQuery(mediaQuery); // call the function once on page load to set the initial state
+
+        mediaQuery.addListener(handleMediaQuery); // add a listener to the media query to update the navbar class when the screen size changes
+    </script>
+</body>
+</html>
